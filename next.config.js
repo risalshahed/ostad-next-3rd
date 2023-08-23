@@ -1,4 +1,7 @@
 /** @type {import('next').NextConfig} */
+/* const nextConfig = {
+  basePath: '/newProject'
+} */
 const nextConfig = {
   distDir: 'build',
   async headers() {
